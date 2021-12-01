@@ -1,0 +1,35 @@
+// WELCOME SECTION
+
+$welcome-area-color: #1E3056;
+
+.welcome-area {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: #fff url(http://demo.tempload.com/jirono/assets/images/header-bg.svg) top left no-repeat;
+
+    .title {
+        font-weight: 400;
+        font-size: 28px;
+        color: $welcome-area-color;
+        line-height: 46px;
+        letter-spacing: 0.93px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #697BA2;
+        line-height: 28px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
+
+    .btn-theme-primary {
+        margin: 0;
+        width: 170px;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+    }
+}

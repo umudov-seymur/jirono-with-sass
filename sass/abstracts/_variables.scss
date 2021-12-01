@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$font-stack: 'Nunito',
+sans-serif !default;
+
+// General Colors
+$primary-color: #1A153A;
+$secondary-color: #F7F6FF;
+
+//Heading Color
+$heading-dark: #3B566E;
+$heading-light: #ffffff;
+
+// Text Colors
+$text-dark: #6F8BA4;
+$text-light: #FFF7F5;
+
+$footer-line: #3C3761;
+
+
+// /// Breakpoints map
+// /// @prop {String} keys - Keys are identifiers mapped to a given length
+// /// @prop {Map} values - Values are actual breakpoints expressed in pixels
+// $breakpoints: ('small': 320px,
+//   'medium': 768px,
+//   'large': 1024px,
+// ) !default;
+
+
+// /// Relative or absolute URL where all assets are served from
+// /// @type String
+// /// @example scss - When using a CDN
+// ///   $base-url: 'http://cdn.example.com/assets/';
+// $base-url: '/assets/' !default;

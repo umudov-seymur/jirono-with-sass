@@ -1,0 +1,13 @@
+/**
+ * Basic typography style for copy text
+ */
+
+body {
+    background: #fff;
+    color: $text-dark;
+    font-family: $font-stack;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}

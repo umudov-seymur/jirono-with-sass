@@ -1,0 +1,67 @@
+.features {
+    .feature-item {
+        display: block;
+        background: #FFFFFF;
+        box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+        padding: 30px;
+        text-align: center;
+        @include transition(all .3s);
+        border-radius: 5px;
+        margin-bottom: 30px;
+
+        .icon {
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            margin: auto;
+            margin-bottom: 20px;
+            background: $secondary-color;
+            border-radius: 50%;
+
+            i {
+                font-size: 18px;
+                color: $primary-color;
+            }
+        }
+
+
+        &:hover {
+            background: $primary-color;
+
+            .feature-title {
+
+                color: $heading-light;
+            }
+
+            p {
+                color: $text-light;
+            }
+
+            a {
+
+                span,
+                i {
+                    color: #fff;
+                }
+            }
+        }
+
+        .feature-title {
+            font-size: 16px;
+            color: $heading-dark;
+            letter-spacing: 0.7px;
+            margin-bottom: 15px;
+            @include transition(all .3s);
+        }
+
+        p {
+            color: $text-dark;
+            letter-spacing: 0.88px;
+            line-height: 26px;
+            position: relative;
+            z-index: 2;
+            @include transition(all .3s);
+            margin-bottom: 0px;
+        }
+    }
+}

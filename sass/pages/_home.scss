@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 70px;
+
+    &-bg {
+        background: #F7FAFD;
+    }
+
+    &-header {
+        .section-title {
+            font-weight: 400;
+            font-size: 28px;
+            color: $heading-dark;
+            letter-spacing: 1.74px;
+            height: 45px;
+            margin-bottom: 10px;
+        }
+
+        .section-description {
+            font-weight: 400;
+            font-size: 16px;
+            color: $text-dark;
+            line-height: 28px;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+    }
+}

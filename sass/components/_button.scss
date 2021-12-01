@@ -1,0 +1,101 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn {
+    &-theme {
+        display: inline-block;
+        height: 32px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border: 1px solid #1A153A;
+        border-radius: 5px;
+        line-height: 31px;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+        font-size: 12px;
+        @include transition(all .3s);
+        text-align: center;
+
+        &-outline {
+            border: 1px solid $primary-color;
+            background: none;
+            color: $primary-color;
+
+            &:hover {
+                background: $primary-color;
+                color: #fff;
+            }
+        }
+
+        &-primary {
+            border: 1px solid $primary-color;
+            background: $primary-color;
+            color: #fff;
+            margin-left: 15px;
+
+            &:hover {
+                background: #fff;
+                color: $primary-color;
+            }
+        }
+    }
+
+    &-home {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 40px;
+        box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+        border-radius: 5px;
+        background: #fff;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.9px;
+        overflow: hidden;
+        text-decoration: none;
+        margin-bottom: 20px;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 100px;
+            left: -70px;
+            top: 0px;
+            background: $secondary-color;
+            transform: rotate(60deg);
+            @include transition(all .3s);
+        }
+
+        i {
+            margin-left: 22px;
+            margin-right: 32px;
+            position: relative;
+            z-index: 2;
+            @include transition(all .3s);
+            color: $heading-dark;
+        }
+
+        span {
+            position: relative;
+            z-index: 2;
+            @include transition(all .3s);
+            color: $heading-dark;
+        }
+
+        &:hover,
+        &.active {
+
+            i {
+                color: #fff;
+                margin-left: 25px;
+                margin-right: 37px;
+            }
+
+            &:after {
+                height: 120px;
+                background: $primary-color;
+            }
+        }
+    }
+}

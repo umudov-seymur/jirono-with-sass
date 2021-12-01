@@ -1,0 +1,101 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer {
+    background: $primary-color;
+    padding-top: 70px;
+
+    img.logo {
+        margin-bottom: 30px;
+    }
+
+    .text {
+        font-size: 14px;
+        color: #fff;
+        line-height: 26px;
+        letter-spacing: 0.88px;
+    }
+
+    h5 {
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 0.69px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer-nav {
+        li {
+            a {
+                display: block;
+                overflow: hidden;
+
+                &:hover {
+                    span {
+                        padding-left: 5px;
+                    }
+                }
+
+                i {
+                    float: left;
+                    height: 32px;
+                    line-height: 32px;
+                    margin-right: 12px;
+                    font-size: 14px;
+                    color: #fff;
+                }
+
+                span {
+                    float: left;
+                    height: 32px;
+                    line-height: 32px;
+                    font-size: 16px;
+                    color: $text-light;
+                    @include transition(all .3s);
+                }
+            }
+        }
+    }
+
+    .address {
+        p {
+            display: block;
+            overflow: hidden;
+            font-size: 14px;
+            color: $text-light;
+            line-height: 26px;
+            letter-spacing: 0.88px;
+            margin-bottom: 5px;
+
+            a {
+                color: $text-light;
+            }
+        }
+
+        .social {
+            overflow: hidden;
+            margin-top: 5px;
+
+            li {
+                float: left;
+                font-size: 16px;
+                margin-right: 10px;
+
+                a {
+                    color: $text-light;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        border-top: 1px solid $footer-line;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: $text-light;
+        letter-spacing: 0.88px;
+    }
+}
