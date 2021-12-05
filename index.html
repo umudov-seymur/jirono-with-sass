@@ -24,7 +24,7 @@
               <!-- LOGO END -->
 
               <!-- MENU START -->
-              <ul class="menu d-none d-lg-flex">
+              <ul class="menu">
                 <li>
                   <a href="#">Home</a>
                 </li>
@@ -60,16 +60,21 @@
               </ul>
               <!-- MENU END -->
 
-              <a href="#" class="hamburger ml-auto d-block d-lg-none">
-                <i class="fa fa-bars"></i>
+              <a href="#" class="menu-hamburger ml-auto d-flex d-lg-none">
+                <span></span>
+                <span></span>
+                <span></span>
               </a>
 
               <!-- AUTH BUTTONS START -->
               <ul class="auth-buttons d-none d-lg-flex">
                 <li>
-                  <a href="#" class="btn-theme btn-theme-outline text-uppercase"
-                    >Sign In</a
+                  <a
+                    href="#"
+                    class="btn-theme btn-theme-outline text-uppercase"
                   >
+                    Sign In
+                  </a>
                   <a href="#" class="btn-theme btn-theme-primary text-uppercase"
                     >Sign Up</a
                   >
@@ -105,39 +110,47 @@
             <div class="offset-lg-1 col-lg-6 d-none d-lg-block">
               <div class="masonry">
                 <div class="masonry-item">
-                  <img
-                    src="https://picsum.photos/265/332?image=100"
-                    alt="Dummy Image"
-                    class="masonry-content"
-                  />
+                  <div class="image">
+                    <img
+                      src="https://picsum.photos/265/332?image=100"
+                      alt="Dummy Image"
+                      class="masonry-content"
+                    />
+                  </div>
                 </div>
                 <div class="masonry-item">
-                  <img
-                    src="https://picsum.photos/265/200?image=300"
-                    alt="Dummy Image"
-                    class="masonry-content"
-                  />
+                  <div class="image">
+                    <img
+                      src="https://picsum.photos/265/200?image=300"
+                      alt="Dummy Image"
+                      class="masonry-content"
+                    />
+                  </div>
                 </div>
                 <div class="masonry-item">
-                  <img
-                    src="https://picsum.photos/265/251?image=120"
-                    alt="Dummy Image"
-                    class="masonry-content"
-                  />
+                  <div class="image">
+                    <img
+                      src="https://picsum.photos/265/251?image=120"
+                      alt="Dummy Image"
+                      class="masonry-content"
+                    />
+                  </div>
                 </div>
                 <div class="masonry-item">
-                  <img
-                    src="https://picsum.photos/265/281?image=400"
-                    alt="Dummy Image"
-                    class="masonry-content"
-                  />
+                  <div class="image">
+                    <img
+                      src="https://picsum.photos/265/281?image=400"
+                      alt="Dummy Image"
+                      class="masonry-content"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- WELCOME AREA END -->
+      <!-- END WELCOME AREA -->
 
       <!-- FEATURES SECTION START -->
       <section class="features section pt-0">
@@ -194,7 +207,7 @@
           </div>
         </div>
       </section>
-      <!-- FEATURES SECTION END -->
+      <!-- END FEATURES SECTION -->
 
       <section class="section pb-80 section-bg">
         <div class="container">
@@ -262,7 +275,7 @@
               </div>
             </div>
             <div class="offset-lg-1 col-lg-5 mt-5 mt-lg-0">
-              <img class="img-fluid" src="/assets/images/blue-1.png" alt="" />
+              <img class="img-fluid" src="/assets/images/dark-1.png" alt="" />
             </div>
           </div>
         </div>
@@ -272,7 +285,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-5 col-md-12 col-sm-12 mb-5 mb-lg-0">
-              <img class="img-fluid" src="/assets/images/blue-2.png" alt="" />
+              <img class="img-fluid" src="/assets/images/dark-2.png" alt="" />
             </div>
             <div class="offset-lg-1 col-lg-6 col-md-12 col-sm-12">
               <div class="section-header">
@@ -378,7 +391,7 @@
           </div>
         </div>
       </section>
-      <!-- PARALLAX COUNTER @enter-cancelled="" -->
+      <!-- END PARALLAX COUNTER -->
 
       <!-- TEAM SECTION START -->
       <section class="section">
@@ -435,8 +448,8 @@
               <div class="team-item">
                 <div class="team-content">
                   <div class="team-info">
-                    <h3 class="user-name">Fletch Skinner</h3>
-                    <span>Product Strategist</span>
+                    <h3 class="user-name">Lance Bogrol</h3>
+                    <span>Visual Designer</span>
                   </div>
                   <ul class="social">
                     <li>
@@ -469,8 +482,8 @@
               <div class="team-item">
                 <div class="team-content">
                   <div class="team-info">
-                    <h3 class="user-name">Fletch Skinner</h3>
-                    <span>Product Strategist</span>
+                    <h3 class="user-name">Valentino Morose</h3>
+                    <span>Android Developer</span>
                   </div>
                   <ul class="social">
                     <li>
@@ -503,8 +516,8 @@
               <div class="team-item">
                 <div class="team-content">
                   <div class="team-info">
-                    <h3 class="user-name">Fletch Skinner</h3>
-                    <span>Product Strategist</span>
+                    <h3 class="user-name">Giles Posture</h3>
+                    <span>iOS Developer</span>
                   </div>
                   <ul class="social">
                     <li>
@@ -536,7 +549,7 @@
           </div>
         </div>
       </section>
-      <!-- TEAM SECTION END -->
+      <!-- END TEAM SECTION -->
 
       <section class="section section-bg">
         <div class="container">
@@ -649,6 +662,123 @@
           </div>
         </div>
       </section>
+
+      <!-- PARALLAX START -->
+      <section
+        class="parallax"
+        style="
+          background-image: url(http://demo.tempload.com/jirono/assets/images/photos/parallax.jpg);
+        "
+      >
+        <div class="parallax-content">
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-12">
+                <div class="info">
+                  <p>
+                    We design and develop <span>web apps</span> that delight
+                    your users and grow your business.
+                  </p>
+                  <a href="#" class="btn-theme btn-theme-white text-uppercase">
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PARALLAX END -->
+
+      <!-- BLOG SECTION -->
+      <section class="section pb-80">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <div class="section-header text-center mb-5">
+                <h2 class="section-title">Latest Blog Posts</h2>
+                <div class="section-description">
+                  <p>
+                    Donec vulputate urna sed rutrum venenatis. Cras consequat
+                    magna quis arcu elementum, quis congue risus volutpat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="blog-item">
+                <div class="blog-image">
+                  <img
+                    src="http://demo.tempload.com/jirono/assets/images/photos/blog/1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="blog-content">
+                  <h3 class="title">
+                    <a href="#">
+                      Jirono Expands the Leadership Team with David Lin,
+                      Controller
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Mauris tellus sem, ultrices varius nisl at, convallis
+                    iaculis mauris. Sed eget sem vitae purus tempus dignissim.
+                  </div>
+                  <a href="#" class="btn-theme btn-theme-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="blog-item">
+                <div class="blog-image">
+                  <img
+                    src="http://demo.tempload.com/jirono/assets/images/photos/blog/2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="blog-content">
+                  <h3 class="title">
+                    <a href="#">
+                      Jirono Partners with Velocloud to Deliver Managed SD-WAN
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Cras imperdiet faucibus sem, a dignissim urna feugiat sed.
+                    Interdum et malesuada fames ac ante ipsum.
+                  </div>
+                  <a href="#" class="btn-theme btn-theme-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="blog-item">
+                <div class="blog-image">
+                  <img
+                    src="http://demo.tempload.com/jirono/assets/images/photos/blog/3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="blog-content">
+                  <h3 class="title">
+                    <a href="#">
+                      Corporate IT Solutions Adds Neva as Senior Account
+                      Executive
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Quisque euismod nec lacus sit amet maximus. Ut convallis
+                    sagittis lorem auctor malesuada. Morbi auctor tortor.
+                  </div>
+                  <a href="#" class="btn-theme btn-theme-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END BLOG SECTION -->
     </main>
 
     <footer class="footer">
@@ -751,5 +881,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.8/dist/countUp.umd.min.js"></script>
+    <script src="/assets/js/app.js"></script>
   </body>
 </html>
