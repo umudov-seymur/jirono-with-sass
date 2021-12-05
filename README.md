@@ -7,3 +7,6 @@ http://jirono.useymur.com/
 
 ## Yarn watch sass changes
 `yarn run watch:css`
+
+## Run local server
+`yarn run serve`
